@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+
+<Pane id="Pane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" 
+ fx:controller="com.projeto.RunController">
+  
+  <children>
+  	<Button fx:id="btnEnviar" layoutX="100" layoutY="100" prefWidth="100" onAction="#onSubmitSclick"/>
+  	<Label fx:id="lblNome" layoutX="100" layoutY="80" mnemonicParsing="false" text="Seu Nome" />
+  	
+  </children>
+  
+</Pane>
